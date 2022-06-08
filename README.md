@@ -13,7 +13,6 @@ Please check INSTALL.md for installation instructions.
 
 We give an example evaluation command for a ImageNet-1k pre-trained, then ImageNet-1K fine-tuned Hctnet:
 
-
 python -m torch.distributed.launch --nproc_per_node=1 main.py \
 --model hctnet --eval true \
 --resume  \
@@ -31,6 +30,13 @@ python -m torch.distributed.launch --nproc_per_node=1 main.py \
 --model_ema true --model_ema_eval true \
 --data_path /path/to/imagenet-1k 
 --output_dir /path/to/save_results
+
+
+**To-do List**
+
+-[×] Fine-tuning Code
+-[] Fine-tune on Chest X-Ray Images with Weights
+
 
 **Acknowledgement**
 
