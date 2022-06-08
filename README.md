@@ -23,7 +23,7 @@ python -m torch.distributed.launch --nproc_per_node=1 main.py \
 
 The result should be
 ```
-Accuracy(95.35%)	Precision(99.51%)	Recall(88.03%)	F1 Score(93.42%)
+Accuracy(95.35%) Precision(99.51%) Recall(88.03%) F1 Score(93.42%)
 ```
 
 **Training**
