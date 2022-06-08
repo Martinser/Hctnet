@@ -34,8 +34,9 @@ python -m torch.distributed.launch --nproc_per_node=1 main.py \
 
 **To-do List**
 
-- [×] Fine-tuning Code
-- [] Fine-tune on Chest X-Ray Images with Weights
+- [x] Fine-tuning Code
+- [ ] Fine-tune on Chest X-Ray Images with Weights
+
 
 
 **Acknowledgement**
